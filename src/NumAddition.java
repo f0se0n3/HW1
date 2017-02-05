@@ -4,11 +4,9 @@ public class NumAddition {
         int sum = 0;
 
         for(int i = 0; i < numberArray.length; i++) {
-            sum = sum+numberArray[i];
+            sum = sum+numberArray[i] - '0';
         }
         System.out.println(sum);
-        //что в логике for не так? при введении девяти нулей и последнего числа 1 оно выдаёт 481?
-        // откуда такой результат??
         return input;
     }
 }

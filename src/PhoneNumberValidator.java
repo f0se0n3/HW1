@@ -13,7 +13,7 @@ public class PhoneNumberValidator {
 			}
 		}
 
-		System.out.println("All characters checked");
+		System.out.println("All characters checked.");
 		NumAddition.addition(input);
 		return true;
 	}
